@@ -11,6 +11,7 @@ machine:
 
 dependencies:
   pre:
+    - sudo yum -y install python
     - sudo pip install ansible
 
 test:
