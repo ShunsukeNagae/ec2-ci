@@ -11,11 +11,6 @@ machine:
 
 dependencies:
   pre:
-    - sudo yum update
-    - sudo yum install -y wget curl
-    - wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-    - sudo rpm -Uvh epel-release-latest-7.noarch.rpm
-    - sudo yum -y install python
     - sudo pip install ansible
 
 test:
